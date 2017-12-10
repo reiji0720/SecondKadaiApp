@@ -12,6 +12,7 @@
 		B54225A71FDD263B0082A584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54225A51FDD263B0082A584 /* Main.storyboard */; };
 		B54225A91FDD263B0082A584 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54225A81FDD263B0082A584 /* Assets.xcassets */; };
 		B54225AC1FDD263B0082A584 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54225AA1FDD263B0082A584 /* LaunchScreen.storyboard */; };
+		B54225B41FDD286E0082A584 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54225B31FDD286E0082A584 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B54225A81FDD263B0082A584 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B54225AB1FDD263B0082A584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B54225AD1FDD263B0082A584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54225B31FDD286E0082A584 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				B54225A11FDD263B0082A584 /* AppDelegate.swift */,
 				B54225A31FDD263B0082A584 /* ViewController.swift */,
 				B54225A51FDD263B0082A584 /* Main.storyboard */,
+				B54225B31FDD286E0082A584 /* ResultViewController.swift */,
 				B54225A81FDD263B0082A584 /* Assets.xcassets */,
 				B54225AA1FDD263B0082A584 /* LaunchScreen.storyboard */,
 				B54225AD1FDD263B0082A584 /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				B54225A41FDD263B0082A584 /* ViewController.swift in Sources */,
 				B54225A21FDD263B0082A584 /* AppDelegate.swift in Sources */,
+				B54225B41FDD286E0082A584 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +270,7 @@
 				DEVELOPMENT_TEAM = G3538NJJP9;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.reiji.kobayashi.SecondKadaiApp;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.reiji.kobayashi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -279,7 +283,7 @@
 				DEVELOPMENT_TEAM = G3538NJJP9;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.reiji.kobayashi.SecondKadaiApp;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.reiji.kobayashi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -304,6 +308,7 @@
 				B54225B21FDD263B0082A584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
